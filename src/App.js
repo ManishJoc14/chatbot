@@ -46,7 +46,7 @@ function App() {
 
   return (
     <>
-      <div style={{float:"right"}}>
+      <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"100vh"}}>
         <ChatBot steps={steps}/>
       </div>
     </>
